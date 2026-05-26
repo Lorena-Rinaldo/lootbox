@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Contatos from "./contato/page";
+import Produtos from "./produtos/page";
 
 export default function Home() {
   return (
