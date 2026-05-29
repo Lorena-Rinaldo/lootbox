@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto, Geist } from "next/font/google";
 import "./globals.css";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const geistSans = Roboto({
   variable: "--font-geist-sans",
@@ -23,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-br"
-      className={`${geistSans.variable} h-full antialiased`}
+      className={cn("h-full", "antialiased", geistSans.variable, "font-sans", geist.variable)}
     >
       <body className="min-h-full flex flex-col">
         <Header />
