@@ -3,6 +3,16 @@ import Image from "next/image";
 export default function PeakCarrossel() {
     return (
         <div className="relative w-full max-w-7xl mx-auto bg-gray-900 overflow-hidden my-8 cursor-pointer">
+            <div className="relative w-full lg:w-3/4 aspect-video flex items-center justify-center bg-black">
+                <Image
+                    src={'/images/peak.jpg'}
+                    alt={'Peak: The Mesa Update'}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 75vw"
+                    className="object-cover"
+                    priority
+                />
+            </div>
             <div className="flex flex-col lg:flex-row">
                 <div className="w-full lg:w-1/4 p-6 sm:p-8 bg-gray-800 lg:bg-gray-900 flex flex-col justify-between">
                     <div>
@@ -60,16 +70,6 @@ export default function PeakCarrossel() {
                     <div className="text-right mt-auto">
                         <p className="text-white text-xl font-medium">R$ 23,99</p>
                     </div>
-                </div>
-                <div className="relative w-full lg:w-3/4 aspect-video flex items-center justify-center bg-black">
-                    <Image
-                        src={'/images/peak.jpg'}
-                        alt={'Peak: The Mesa Update'}
-                        fill
-                        sizes="(max-width: 1024px) 100vw, 75vw"
-                        className="object-cover"
-                        priority
-                    />
                 </div>
             </div>
         </div>
