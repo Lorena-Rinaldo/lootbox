@@ -1,3 +1,8 @@
+"use client"
+
+import React from "react"
+import Autoplay from "embla-carousel-autoplay"
+
 import {
   Carousel,
   CarouselContent,
@@ -14,8 +19,17 @@ const games = [
 ];
 
 export default function Carrossel() {
+  const plugin = React.useRef(
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  )
+
   return (
-    < Carousel >
+    < Carousel
+      plugins={[plugin.current]}
+      className="w-full relative"
+      onMouseEnter={() => plugin.current.stop()}
+      onMouseLeave={() => plugin.current.reset()}
+    >
       <CarouselContent>
         {games.map((GameComponent, index) => (
           <CarouselItem key={index} className="flex justify-center">
