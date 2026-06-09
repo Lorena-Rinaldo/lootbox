@@ -19,16 +19,17 @@ const games = [
 ];
 
 export default function Carrossel() {
-  const plugin = React.useRef(
-    Autoplay({ delay: 5000, stopOnInteraction: true })
+  const plugin = React.useMemo(
+    () => Autoplay({ delay: 5000, stopOnInteraction: true }),
+    []
   )
 
   return (
     < Carousel
-      plugins={[plugin.current]}
+      plugins={[plugin]}
       className="w-full relative"
-      onMouseEnter={() => plugin.current.stop()}
-      onMouseLeave={() => plugin.current.reset()}
+      onMouseEnter={() => plugin.stop()}
+      onMouseLeave={() => plugin.reset()}
     >
       <CarouselContent>
         {games.map((GameComponent, index) => (

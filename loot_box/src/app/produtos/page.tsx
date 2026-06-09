@@ -1,5 +1,5 @@
-import Carrossel from "@/components/carrossel";
 import GameCard from "@/components/gamecard";
+import ProdutosBanner from "@/components/produtos-banner";
 
 import produtos from "../../../produtos.json"
 
@@ -8,7 +8,9 @@ export default function Produtos() {
     return (
         <main className="flex flex-1 w-full flex-col items-center justify-between bg-black dark:bg-black sm:items-start">
             <div className="container mx-auto py-8">
-                <div className="flex flex-row flex-wrap justify-between gap-6 w-full">
+                <ProdutosBanner />
+
+                <div className="grid w-full grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
                     {produtos.map((produto) => (
                         <GameCard
                             key={produto.id}

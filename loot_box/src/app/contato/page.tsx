@@ -1,5 +1,9 @@
+import ContatoForm from "@/components/contato-form";
+
 export default function Contatos() {
-    <div>
-        <h1 className="text-white">Loot Box - Página de contatos</h1>
-    </div>
+  return (
+    <main className="flex flex-1 w-full flex-col items-center bg-black px-4 py-10 dark:bg-black">
+      <ContatoForm />
+    </main>
+  );
 }
