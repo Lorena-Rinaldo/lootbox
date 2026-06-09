@@ -1,7 +1,10 @@
+"use client"
+
 import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import Image from "next/image"
 import Link from "next/link"
+import { useState } from "react"
 
 interface CardProdutoProps {
   id: string | number;
@@ -21,6 +24,10 @@ export default function CardProduto({
   destaque,
   link = "/" 
 }: CardProdutoProps) {
+  const placeholderSrc = "/images/placeholder.png"
+  const [currentImageSrc, setCurrentImageSrc] = useState(
+    imageSrc || placeholderSrc
+  )
 
   const formattedPrice = new Intl.NumberFormat("pt-BR", {
     style: "currency",
@@ -38,11 +45,12 @@ export default function CardProduto({
 
         <div className="relative aspect-[16/9] overflow-hidden bg-black">
           <Image
-            src={imageSrc || "/images/placeholder.png"}
+            src={currentImageSrc}
             alt={`Capa do jogo ${title}`}
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, 384px"
+            onError={() => setCurrentImageSrc(placeholderSrc)}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#09090d] via-transparent to-transparent opacity-70" />
         </div>
