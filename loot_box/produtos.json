@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "title": "Overcooked",
+        "description": "Overcooked é um jogo cooperativo de simulação de cozinha frenética para até quatro jogadores. O objetivo é trabalhar em equipe para preparar, cozinhar e servir pedidos rapidamente antes que os clientes impacientes percam a paciência, enquanto lidam com obstáculos malucos e cenários dinâmicos.",
+        "price": 214.90,
+        "imageSrc": "/produtos/overcooked.png",
+        "destaque": false
+    },
+    {
+        "id": "2",
+        "title": "The Last of Us Part II",
+        "description": "The Last of Us Part II é um jogo de ação e aventura com elementos de terror e sobrevivência, desenvolvido pela Naughty Dog. Ambientado num mundo pós-apocalíptico devastado por um fungo mutante, a narrativa explora um ciclo de violência e vingança, colocando o jogador no controle de duas protagonistas rivais em meio a dilemas morais complexos.",
+        "price": 199.90,
+        "imageSrc": "/produtos/theLastOfUs.jpg",
+        "destaque": false
+    },
+    {
+        "id": "3",
+        "title": "Hollow Knight: Silksong",
+        "description": "Hollow Knight: Silksong é a épica continuação do aclamado jogo de ação e aventura metroidvania Hollow Knight. Nele, você controla a letal caçadora Hornet, que acorda prisioneira e levada para o desconhecido e vasto reino de Fiarlongo (Pharloom), governado por seda e música.",
+        "price": 59.99,
+        "imageSrc": "/produtos/silksong_hero.jpeg",
+        "destaque": true
+    },
+    {
+        "id": "4",
+        "title": "Red Dead Redemption 2",
+        "description": "Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto ambientado no Velho Oeste americano. Você acompanha a história de Arthur Morgan, um fora da lei que precisa lidar com a decadência de sua gangue enquanto explora vastas paisagens, realiza missões e toma decisões que influenciam sua jornada.",
+        "price": 149.90,
+        "imageSrc": "/produtos/redDeadRedemption2.jfif",
+        "destaque": true
+    },
+    {
+        "id": "5",
+        "title": "Cyberpunk 2077",
+        "description": "Cyberpunk 2077 é um RPG de ação em primeira pessoa ambientado em Night City, uma metrópole futurista obcecada por tecnologia, poder e modificações corporais. Personalize seu personagem, faça escolhas que afetam a história e enfrente corporações poderosas.",
+        "price": 129.90,
+        "imageSrc": "/produtos/cyberpunk2077.jfif",
+        "destaque": false
+    },
+    {
+        "id": "6",
+        "title": "God of War Ragnarök",
+        "description": "God of War Ragnarök continua a jornada de Kratos e Atreus pelos Nove Reinos da mitologia nórdica. Com combates intensos, exploração e uma narrativa emocionante, o jogo acompanha os eventos que levam ao fim dos tempos.",
+        "price": 249.90,
+        "imageSrc": "/produtos/godOfWarRagnarok.jfif",
+        "destaque": true
+    },
+    {
+        "id": "7",
+        "title": "Minecraft",
+        "description": "Minecraft é um jogo de construção e sobrevivência onde você pode explorar mundos gerados proceduralmente, coletar recursos, construir estruturas impressionantes e criar suas próprias aventuras sozinho ou com amigos.",
+        "price": 99.90,
+        "imageSrc": "/produtos/minecraft.jpg",
+        "destaque": false
+    },
+    {
+        "id": "8",
+        "title": "Elden Ring",
+        "description": "Elden Ring é um RPG de ação em mundo aberto criado pela FromSoftware. Explore as Terras Intermédias, enfrente chefes desafiadores, descubra segredos e desenvolva seu personagem em uma jornada épica repleta de mistérios.",
+        "price": 229.90,
+        "imageSrc": "/produtos/eldenRing.jfif",
+        "destaque": true
+    },
+    {
+        "id": "9",
+        "title": "Stardew Valley",
+        "description": "Stardew Valley é um simulador de fazenda relaxante onde você cultiva plantações, cria animais, faz amizades com moradores da cidade e explora cavernas cheias de recursos e desafios.",
+        "price": 39.90,
+        "imageSrc": "/produtos/stardewValley.jfif",
+        "destaque": false
+    },
+    {
+        "id": "10",
+        "title": "Grand Theft Auto V",
+        "description": "Grand Theft Auto V é um jogo de ação em mundo aberto que acompanha três protagonistas em uma série de assaltos e conflitos no estado fictício de San Andreas. O jogo oferece uma enorme liberdade de exploração e atividades.",
+        "price": 89.90,
+        "imageSrc": "/produtos/gtaV.jfif",
+        "destaque": false
+    },
+    {
+        "id": "11",
+        "title": "Hades",
+        "description": "Hades é um roguelike de ação onde você controla Zagreus, filho de Hades, tentando escapar do submundo. Cada tentativa traz novos desafios, melhorias e diálogos que expandem a narrativa.",
+        "price": 59.90,
+        "imageSrc": "/produtos/hades.jfif",
+        "destaque": false
+    },
+    {
+        "id": "12",
+        "title": "EA Sports FC 26",
+        "description": "EA Sports FC 26 oferece uma experiência de futebol moderna com gráficos aprimorados, modos online competitivos e centenas de clubes, ligas e jogadores licenciados para você montar seu time dos sonhos.",
+        "price": 299.90,
+        "imageSrc": "/produtos/eaSportsFC26.jfif",
+        "destaque": true
+    }
+]

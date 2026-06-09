@@ -40,7 +40,7 @@ export default function CardProduto({
 
         <div className="relative h-44 m-0.5 overflow-hidden">
           <Image
-            src={imageSrc}
+            src={imageSrc || "/images/placeholder.png"}
             alt={`Capa do jogo ${title}`}
             fill
             className="object-cover"
