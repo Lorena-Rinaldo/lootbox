@@ -74,7 +74,7 @@ export default function Header() {
             <ShoppingCart className="w-5 h-5" />
           </button>
           <Link
-            href="/"
+            href="#"
             className="px-5 py-2 rounded-full bg-purple-600 hover:bg-purple-500 text-white text-sm font-bold transition-all hover:scale-105 active:scale-95 shadow-[0_0_15px_rgba(147,51,234,0.4)]"
           >
             Entrar
