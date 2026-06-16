@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const bannerImages = [
   {
-    src: "/produtos/eldenRing.jfif",
+    src: "/produtos/eldenRing.jpg",
     alt: "Capa do jogo Elden Ring",
   },
   {
-    src: "/produtos/redDeadRedemption2.jfif",
+    src: "/produtos/redDeadRedemption2.jpg",
     alt: "Capa do jogo Red Dead Redemption 2",
   },
   {
