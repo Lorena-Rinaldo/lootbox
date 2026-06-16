@@ -28,7 +28,7 @@
         "title": "Red Dead Redemption 2",
         "description": "Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto ambientado no Velho Oeste americano. Você acompanha a história de Arthur Morgan, um fora da lei que precisa lidar com a decadência de sua gangue enquanto explora vastas paisagens, realiza missões e toma decisões que influenciam sua jornada.",
         "price": 149.90,
-        "imageSrc": "/produtos/redDeadRedemption2.jfif",
+        "imageSrc": "/produtos/redDeadRedemption2.jpg",
         "destaque": true
     },
     {
@@ -44,7 +44,7 @@
         "title": "God of War Ragnarök",
         "description": "God of War Ragnarök continua a jornada de Kratos e Atreus pelos Nove Reinos da mitologia nórdica. Com combates intensos, exploração e uma narrativa emocionante, o jogo acompanha os eventos que levam ao fim dos tempos.",
         "price": 249.90,
-        "imageSrc": "/produtos/godOfWarRagnarok.jfif",
+        "imageSrc": "/produtos/godOfWarRagnarok.jpg",
         "destaque": true
     },
     {
@@ -60,7 +60,7 @@
         "title": "Elden Ring",
         "description": "Elden Ring é um RPG de ação em mundo aberto criado pela FromSoftware. Explore as Terras Intermédias, enfrente chefes desafiadores, descubra segredos e desenvolva seu personagem em uma jornada épica repleta de mistérios.",
         "price": 229.90,
-        "imageSrc": "/produtos/eldenRing.jfif",
+        "imageSrc": "/produtos/eldenRing.jpg",
         "destaque": true
     },
     {
@@ -68,7 +68,7 @@
         "title": "Stardew Valley",
         "description": "Stardew Valley é um simulador de fazenda relaxante onde você cultiva plantações, cria animais, faz amizades com moradores da cidade e explora cavernas cheias de recursos e desafios.",
         "price": 39.90,
-        "imageSrc": "/produtos/stardewValley.jfif",
+        "imageSrc": "/produtos/stardewValley.jpg",
         "destaque": false
     },
     {
@@ -76,7 +76,7 @@
         "title": "Grand Theft Auto V",
         "description": "Grand Theft Auto V é um jogo de ação em mundo aberto que acompanha três protagonistas em uma série de assaltos e conflitos no estado fictício de San Andreas. O jogo oferece uma enorme liberdade de exploração e atividades.",
         "price": 89.90,
-        "imageSrc": "/produtos/gtaV.jfif",
+        "imageSrc": "/produtos/gtaV.jpg",
         "destaque": false
     },
     {
@@ -84,7 +84,7 @@
         "title": "Hades",
         "description": "Hades é um roguelike de ação onde você controla Zagreus, filho de Hades, tentando escapar do submundo. Cada tentativa traz novos desafios, melhorias e diálogos que expandem a narrativa.",
         "price": 59.90,
-        "imageSrc": "/produtos/hades.jfif",
+        "imageSrc": "/produtos/hades.jpg",
         "destaque": false
     },
     {
