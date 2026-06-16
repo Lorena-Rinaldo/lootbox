@@ -28,9 +28,9 @@ export default function RootLayout({
       lang="pt-br"
       className={cn("h-full", "antialiased", geistSans.variable, "font-sans", geist.variable)}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-[#050505]">
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 pt-20">
           {children}
         </main>
         <Footer />
