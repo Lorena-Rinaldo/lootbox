@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/logo/logo.png" alt="Logo Loot Box" width="120" />
+  <img src="loot_box/public/logo/logo.png" alt="Logo Loot Box" width="120" />
 </p>
 
 # LOOT BOX - Loja de Jogos Digitais
