@@ -19,11 +19,10 @@ export default function Header() {
 
   return (
     <header
+      style={{ backgroundColor: "#000000" }}
       className={`
       fixed top-0 left-0 w-full z-[999] transition-all duration-300
-      ${scrolled
-          ? "h-16 bg-black/80 backdrop-blur-lg border-b border-purple-500/30 shadow-[0_4px_30px_rgba(139,92,246,0.15)]"
-          : "h-20 bg-transparent"}
+      h-20 border-b border-purple-500/30 shadow-[0_4px_30px_rgba(139,92,246,0.15)]
     `}
     >
       <div className="max-w-7xl mx-auto h-full px-6 flex items-center justify-between">
