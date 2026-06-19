@@ -14,7 +14,7 @@ export default function Home() {
     <main className="flex flex-1 w-full flex-col items-center justify-between bg-black dark:bg-black sm:items-start">
       <div className="container mx-auto py-8">
         <Carrossel />
-        <div className="grid w-full grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-6">
+        <div className="grid w-full grid-cols-[repeat(auto-fill,minmax(240px,280px))] justify-center gap-6">
           {produtosDestacados.map(
             (produto) => (
               <GameCard
